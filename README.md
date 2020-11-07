@@ -1,6 +1,6 @@
 # TP-Alien-Language
 
-#Problem
+# Problem
 After years of study, scientists at Google Labs have discovered an alien language transmitted from a faraway planet. 
 The alien language is very unique in that every word consists of exactly L lowercase letters. 
 Also, there are exactly D words in this language.
@@ -10,16 +10,16 @@ Once the dictionary of all the words in the alien language was built, the next b
 A pattern consists of exactly L tokens. 
 Each token is either a single lowercase letter (the scientists are very sure that this is the letter) or a group of unique lowercase letters surrounded by parenthesis ( and ). For example: (ab)d(dc) means the first letter is either a or b, the second letter is definitely d and the last letter is either d or c. Therefore, the pattern (ab)d(dc) can stand for either one of these 4 possibilities: add, adc, bdd, bdc.
 
-#Input
+# Input
 The first line of input contains 3 integers, L, D and N separated by a space. D lines follow, each containing one word of length L. These are the words that are known to exist in the alien language. N test cases then follow, each on its own line and each consisting of a pattern as described above. You may assume that all known words provided are unique.
 
-#Output
+# Output
 For each test case, output
 
 Case #X: K
 where X is the test case number, starting from 1, and K indicates how many words in the alien language match the pattern.
 
-#Limits
+# Limits
 Time limit: 20 seconds per test set.
 Memory limit: 1 GB.
 
